@@ -1,0 +1,24 @@
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+@import url('http://fonts.cdnfonts.com/css/herman-decanus-ah-2');
+.house_image {
+    height: 95vh;
+    width: 100vw;
+    margin-top: -8%;
+}
+
+.user_details {
+    position: relative;
+    margin-top: -37%;
+    margin-left: 37%;
+}
+
+.user_details h1 {
+    font-family: 'Harry Potter', sans-serif;
+    color: #000;
+}
+
+.user_details h1 span {
+    font-family: 'Herman Decanus Light AH', sans-serif;
+    font-family: 'Herman Decanus AH', sans-serif;
+    color: #000;
+}

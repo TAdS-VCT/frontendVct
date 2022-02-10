@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mapvct {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    /* opacity: 1; */
+}
+
+
+/* .modal {
+    position: relative;
+    z-index: 3;
+} */
+
+
+/* .box .pointervct_mainBuilding {
+    cursor: pointer;
+    position: absolute;
+    height: 6%;
+    width: 2%;
+    left: 50%;
+    top: 24%;
+    overflow: hidden;
+    z-index: 2;
+    transition: all linear 0.7s;
+} */
+
+
+/* .box .tooltip {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.box .pointervct_mainBuilding:hover .tooltip {
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+} */
+
+
+/* 
+.box img {
+    width: 0;
+}
+
+img.hover-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear 0.7s;
+    z-index: -1;
+}
+
+.pointervct_mainBuilding:hover .mapvct {
+    opacity: 0;
+}
+
+.box:hover .pointervct_mainBuilding {
+    opacity: 0;
+}
+
+.box:hover img.hover-img {
+    opacity: 1;
+    position: absolute;
+    height: 35%;
+    width: 10%;
+    background-size: cover;
+} */
+
+.MAIN_BUILDING {
+    cursor: pointer;
+    position: absolute;
+    top: 16.4%;
+    left: 54.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.NEHRU_MUSEUM {
+    cursor: pointer;
+    position: absolute;
+    top: 17.4%;
+    left: 65.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.NALANDA {
+    cursor: pointer;
+    position: absolute;
+    top: 32.4%;
+    left: 67.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.TECH_MARKET {
+    cursor: pointer;
+    position: absolute;
+    top: 37.4%;
+    left: 24.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.LAKE {
+    cursor: pointer;
+    position: absolute;
+    top: 26.4%;
+    left: 31.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.OLD_ARCHI {
+    cursor: pointer;
+    position: absolute;
+    top: 25.4%;
+    left: 53.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.GYMKHANA {
+    cursor: pointer;
+    position: absolute;
+    top: 19.4%;
+    left: 32.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.HELIPAD {
+    cursor: pointer;
+    position: absolute;
+    top: 57.4%;
+    left: 74.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.CLOCK_TOWER {
+    cursor: pointer;
+    position: absolute;
+    top: 23.4%;
+    left: 42.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.AGRICULTURE_DEPARTMENT {
+    cursor: pointer;
+    position: absolute;
+    top: 22.4%;
+    left: 58.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.SHIRU_CAFE {
+    cursor: pointer;
+    position: absolute;
+    top: 35.4%;
+    left: 65.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.TWOPOINTTWO {
+    cursor: pointer;
+    position: absolute;
+    top: 45.4%;
+    left: 35.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.TOAT {
+    cursor: pointer;
+    position: absolute;
+    top: 21.4%;
+    left: 47.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.LIBRARY {
+    cursor: pointer;
+    position: absolute;
+    top: 14.4%;
+    left: 50.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.PFC {
+    cursor: pointer;
+    position: absolute;
+    top: 19.4%;
+    left: 25.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.TAKSHASHILA {
+    cursor: pointer;
+    position: absolute;
+    top: 29.4%;
+    left: 51.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.SBI {
+    cursor: pointer;
+    position: absolute;
+    top: 7.4%;
+    left: 51%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.PURI_GATE {
+    cursor: pointer;
+    position: absolute;
+    top: 0.4%;
+    left: 53.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.ADDA {
+    cursor: pointer;
+    position: absolute;
+    top: 26.4%;
+    left: 45.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.JNAN_GHOSH {
+    cursor: pointer;
+    position: absolute;
+    top: 24.4%;
+    left: 38.4%;
+    width: 1.8%;
+    z-index: 2;
+}
